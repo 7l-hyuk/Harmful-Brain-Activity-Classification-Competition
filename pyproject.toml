@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "exploring-eeg"
+version = "0.1.0"
+description = ""
+authors = ["Gihyuk Kwon <imrlgur81@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.9.0"
+pandas = "^2.2.2"
+numpy = "^2.0.0"
+scipy = "^1.14.0"
+scikit-learn = "^1.5.0"
+xgboost = "^2.1.0"
+fastparquet = "^2024.5.0"
+optuna = "^3.6.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
